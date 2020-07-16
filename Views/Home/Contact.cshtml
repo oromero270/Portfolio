@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Contact Me";
+}
+@model User
+<div class="card">
+    <div class="card-header">Contact Me</div>
+    <div class="card-body">
+        <form action="/contact/info" method="post">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label>Message:</label>
+                        <input asp-for="Info" class="form-control" />
+                        <span asp-validation-for="Info" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="btn btn-outline-danger" value="Send" />
+        </form>
+    </div>
+</div>
+<div class="jumbotron">
+    E-mail: oromero2018@gmail.com
+    <br>
+        Social media and repository links are down below.
+
+</div>

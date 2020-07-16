@@ -1,0 +1,209 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+.littop{
+  background-color: rgb(163, 163, 163);
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+#abouthead{
+  background-color: gray;
+  padding: 30px;
+  color: white;
+  border: 2px solid black;
+}
+blockquote{
+  color: rgb(29, 8, 219);
+}
+#leftpan{
+  display: flex;
+  width: 370px;
+  
+}
+#rightpan{
+  display: flex;
+  background-color: rgb(98, 95, 95);
+  padding: 30px;
+}
+#projpan{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(68, 66, 66);
+  padding: 65px;
+  justify-content: center;
+  box-shadow: 10px 10px 5px grey;
+}
+#myCarousel{
+  margin: auto;
+}
+div.a{
+  font-size: 120%;
+  
+}
+
+.con {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: flex;
+  width: 65%;
+  height: auto;
+  justify-content: space-evenly;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.con:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.card-body {
+  display: flex;
+  flex-direction: row;
+}
+.btn{
+  box-shadow: 10px 10px 5px grey;
+}
+.q-box1{
+  margin-top: -625px;
+  width: 25%;
+  margin-left: 172px;
+  font-size: 23px;
+
+}
+.q-box2{
+  margin-left: 695px;
+  width: 25%;
+  font-size: 23px;
+
+}
+h3{
+  display: flex;
+  justify-content: center;
+}
+
+.mybelts{
+  margin-top: 400px;
+  background-color: grey;
+  width: 394px;
+  height: 221px;
+  border: 4px black groove;
+}
+.mybelts2{
+  background-color: grey;
+  width: 394px;
+  height: 221px;
+  border: 4px black groove;
+  margin-top: 400px;
+}
+.mybelts3{
+  background-color: grey;
+  width: 394px;
+  height: 221px;
+  border: 4px black groove;
+  margin-top: 400px;
+}
+.site{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mepicbox
+{
+  display: flex;
+  justify-content: center;
+}
+.skillwords{
+  font-size: 20px;
+  padding: 9px;
+  background-color: white;
+}
+.skillbtn{
+  display: flex;
+  justify-content: center;
+  
+}
